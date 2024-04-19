@@ -6,7 +6,6 @@ function InicioSesion() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aquí puedes agregar lógica para manejar el inicio de sesión, como enviar los datos a un servidor
     console.log('Email:', email);
     console.log('Contraseña:', contraseña);
   };
